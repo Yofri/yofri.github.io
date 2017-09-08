@@ -1,0 +1,62 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; }
+
+.header-homepage {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  padding-top: 1.25em; }
+  .header-homepage h1 {
+    font-size: 3rem;
+    line-height: 3.25rem;
+    font-weight: 100;
+    text-align: center; }
+  .header-homepage li {
+    display: inline-block;
+    margin: 0 12px; }
+  .header-homepage section {
+    text-align: center; }
+  .header-homepage i {
+    margin-bottom: 1em; }
+
+.portfolio {
+  margin-top: 2em; }
+  .portfolio h3 {
+    font-size: 2rem;
+    text-align: center; }
+  .portfolio img {
+    display: block;
+    margin: auto;
+    max-height: 150px; }
+  .portfolio h4 {
+    margin-top: 1em;
+    font-size: 1.5rem; }
+
+.blog {
+  margin-top: 2em; }
+  .blog h3 {
+    font-size: 2rem;
+    text-align: center; }
+  .blog a:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-end; }
+  .blog p {
+    height: 60px; }
+  .blog i {
+    vertical-align: bottom; }
+
+footer {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  padding-bottom: 3rem !important; }
+  footer ul {
+    margin-left: 0 !important; }
+  footer li {
+    display: inline-block;
+    margin: 0 0.75em; }
